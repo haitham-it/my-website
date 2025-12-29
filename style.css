@@ -53,16 +53,16 @@ body {
   font-size:60px;
   color: rgba(230, 239, 231, 0.89);
   margin-bottom: 25px;
-   background: linear-gradient(145deg, #1c1c1c, #0d0d0d);
+   background: linear-gradient(145deg, #151313, #3b3434db);
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 0 15px rgba(255,215,0,0.15);
+  box-shadow: 0 0 40px rgba(255,215,0,0.15);
   transition: transform 0.3s;
 }
 
 /* الخدمات */
 .services {
-  background-color: #151515;
+  background-color:(#3b3434db);
 }
 
 .cards {
@@ -74,11 +74,11 @@ body {
 }
 
 .card {
-  background: linear-gradient(145deg, #1c1c1c, #0d0d0d);
+  background: linear-gradient(145deg, #151313, #3b3434db);
   padding: 30px;
   border-radius: 12px;
   font-size: 20px;
-  box-shadow: 0 0 15px rgba(255,215,0,0.15);
+  box-shadow: 0 0 40px rgba(255,215,0,0.15);
   transition: transform 0.3s;
 }
 
@@ -100,22 +100,27 @@ footer {
 }
 
 /* زر واتساب */
-.whatsapp-btn {
+
+.whatsapp-button {
   position: fixed;
   bottom: 25px;
   left: 25px;
   width: 60px;
   height: 60px;
-  background-color: #25D366;
-  color: #fff;
-  font-size: 30px;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
   transition: transform 0.3s;
+}
+
+.whatsapp-button img:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp-button img:hover {
+  transform: scale(1.2);
+}
 }
 
 .whatsapp-btn:hover {
@@ -132,10 +137,10 @@ footer {
   gap: 25px;
   max-width: 350px;
   margin: 30px auto;
-  background: linear-gradient(145deg, #1c1c1c, #0b0b0b);
+  background: linear-gradient(145deg, #151313, #3b3434db);
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 0 15px rgba(255,215,0,0.15);
+  box-shadow: 0 0 40px rgba(255,215,0,0.15);
 }
 
 .gallery-item img {
